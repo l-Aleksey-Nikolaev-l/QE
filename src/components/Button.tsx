@@ -1,0 +1,1 @@
+import { ReactNode } from "react";interface Props {    children?: string;    color?: "primary" | "secondary" | "danger";    onClick?: () => void;}const Button = ({children = "Button", color = "primary", onClick = () => null}: Props) => {    return (        <button className={`btn btn-${color}`} onClick={onClick}>{children}</button>    );}export default Button;
