@@ -1,0 +1,1 @@
+import "./searchButtonStyle.css"function ButtonSearch() {    return (        <button className="searchButton">Search</button>    );}export default ButtonSearch;
