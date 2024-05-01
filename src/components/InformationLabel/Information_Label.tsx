@@ -1,0 +1,1 @@
+import "./informationLabel.css"function InformationLabel() {    return (        <div className="informationLabel">            <p>Some information</p>        </div>    );}export default InformationLabel;
